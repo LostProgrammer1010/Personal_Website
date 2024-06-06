@@ -1,0 +1,53 @@
+.page {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #e0d9cb;
+    height: auto;
+    width: 80%;
+    padding: 100px;
+    font-family:
+        Cabin Sketch,
+        sans-serif;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+}
+
+h1 {
+    flex-basis: 100%;
+}
+
+h2 {
+    flex-basis: 100%;
+}
+
+.left-container {
+    flex-basis: 65%;
+}
+
+.right-container {
+    margin-top: 50px;
+    flex-basis: 30%;
+}
+
+a.email {
+    color: #daa520;
+    text-decoration: none;
+}
+
+a.social {
+    color: #daa520;
+    text-decoration: none;
+}
+
+a.project {
+    color: #daa520;
+    text-decoration: none;
+}
+
+a.project:visited {
+    color: #daa520;
+}

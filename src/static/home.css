@@ -1,0 +1,194 @@
+:root {
+    --primary-color: #430f4f;
+    --primary-light-color: #7000a5;
+    --secondary-color: #daa520;
+    --secondary-light-color: #FFFFF;
+    --background-color: #151515;
+    overflow-y: scroll;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    row-gap: 250px;
+    margin-top: 150px;
+    padding-bottom: 200px;
+}
+
+.open-intro {
+    transition: 0.4s;
+    text-align: center;
+    position: relative;
+    padding: 50px 75px 10px 75px;
+    width: 40%;
+    height: auto;
+    text-wrap: wrap;
+    background-color: transparent;
+}
+
+.about-container {
+    height: auto;
+    flex-basis: 80%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='%23DAA520FF' stroke-width='5' stroke-dasharray='1%2c 40' stroke-dashoffset='46' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 30px;
+    color: #e0d9cb;
+}
+
+.about-container .description {
+    font-family:
+        Cabin Sketch,
+        sans-serif;
+    line-height: 1.7rem;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    padding: 30px;
+}
+
+.about-container .description .photo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.about-container .title {
+    font-family:
+        Fredericka the Great,
+        sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 50;
+}
+
+.intro {
+    font-size: 23px;
+    color: #e0d9cb;
+    font-family:
+        Cabin Sketch,
+        sans-serif;
+}
+
+.intro .main-text {
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.intro .subtitle {
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.intro .note {
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.intro h1 {
+    font-family:
+        Fredericka the Great,
+        sans-serif;
+    color: var(--secondary-color);
+    letter-spacing: 0.1rem;
+    font-weight: 50;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.top-left {
+    border-left: 5px solid var(--secondary-color);
+    border-top: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+.top-left-blur {
+    border-left: 5px solid var(--secondary-color);
+    border-top: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    filter: blur(10px);
+}
+
+.top-right {
+    border-right: 5px solid var(--secondary-color);
+    border-top: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    right: 0px;
+}
+
+.top-right-blur {
+    border-right: 5px solid var(--secondary-color);
+    border-top: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    right: 0px;
+    filter: blur(10px);
+}
+
+.bottom-right {
+    border-right: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bottom-right-blur {
+    border-right: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 0px;
+    right: 0px;
+    filter: blur(10px);
+}
+
+.bottom-left {
+    border-left: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.bottom-left-blur {
+    border-left: 5px solid var(--secondary-color);
+    border-bottom: 5px solid var(--secondary-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: 0px;
+    left: 0px;
+    filter: blur(10px);
+}

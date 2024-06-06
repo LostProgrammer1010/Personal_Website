@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #430f4f;
+    --primary-light-color: #7000a5;
+    --secondary-color: #daa520;
+    --secondary-light-color: #FFFFF;
+    --background-color: #151515;
+    overflow-y: scroll;
+    background-color: var(--background-color);
+}
+
+/* .nav-container allows for centering of navbar */
+.nav-container {
+    font-family:
+        Cutive Mono,
+        sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    padding: 0px;
+    z-index: 1;
+}
+
+/* Editing the navbar itself */
+.nav-container .top-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:
+        Cabin Sketch,
+        sans-serif;
+    background-color: #e0d9cb;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50px;
+    max-width: 84%;
+    font-weight: 800;
+}
+
+/* Floats all the links to right of navbar*/
+.top-nav .name {
+    float: left;
+    font-family:
+        Fredericka the Great,
+        sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+}
+
+/* For the color change of name in navbar */
+.top-nav .name:hover + .stickman {
+    display: block;
+}
+
+/* Style the links inside the navigation bar */
+.top-nav a {
+    float: right;
+    color: var(--background-color);
+    text-align: center;
+    height: 100%;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.top-nav a:hover {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+/* Add a color to the active/current link */
+.top-nav a.active {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}

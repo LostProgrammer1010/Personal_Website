@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredericka+the+Great&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="{{ url_for('static', filename='home.js')}}"></script>
+
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='index.css')}}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='home.css')}}"
+        />
+    </head>
+    <body>
+        <div class="nav-container">
+            <div class="top-nav">
+                <a class="name" href="/">Dustin Meyer </a>
+                <a href="/contact">Contact</a>
+                <a href="/resume">Resume</a>
+                <a href="/project">Projects</a>
+                <a class="active" href="/">Home</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="aboutmain" class="open-intro">
+                <div class="intro">
+                    <div class="subtitle">Welcome! My name is</div>
+                    <h1>DUSTIN MEYER</h1>
+                    <div class="subtitle">I am aspiring</div>
+                    <div class="main-text">
+                        Software Engineer
+                        <div class="subtitle">and</div>
+                        Web Designer.
+                    </div>
+                    <div class="note">Or maybe I just like to program....</div>
+                </div>
+                <div class="bottom-left"></div>
+                <div class="bottom-right"></div>
+                <div class="top-left"></div>
+                <div class="top-right"></div>
+                <div class="bottom-left-blur"></div>
+                <div class="bottom-right-blur"></div>
+                <div class="top-left-blur"></div>
+                <div class="top-right-blur"></div>
+            </div>
+
+            <div class="about-container">
+                <h1 class="title">My programming journey.</h1>
+                <p class="description">
+                    <img
+                        class="photo"
+                        src="{{ url_for('static', filename='Photo1.png' ) }}"
+                    />
+                    I first started programming in high school. I decided why
+                    not do it college; Fast forward and I have a bachlar degree
+                    in computer science. It has been a long, hard journey and I
+                    have learned so many new things. I became a tutor, worked on
+                    many projects personal and with a team. I am always wanting
+                    to learn something new and hope one day to make my impact on
+                    the world.
+                </p>
+            </div>
+
+            <div class="about-container">
+                <h1 class="title">My japanese journey.</h1>
+                <p class="description">
+                    <img
+                        class="photo"
+                        src="{{ url_for('static', filename='Photo1.png' ) }}"
+                    />
+                    I really fell in love the with language and the culture. I
+                    started about 5 months ago and looking back at I have
+                    learned many things even though I still don't understand
+                    everything.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

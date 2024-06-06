@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredericka+the+Great&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='index.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='resume.css') }}"
+        />
+    </head>
+    <body>
+        <div class="nav-container">
+            <div class="top-nav">
+                <a class="name" href="/">Dustin Meyer</a>
+                <a href="/contact">Contact</a>
+                <a class="active" href="/resume">Resume</a>
+                <a href="/project">Projects</a>
+                <a href="/">Home</a>
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="left-container">
+                <h1>Dustin Meyer</h1>
+                <h2>SENIOR AT SUNY BROCKPORT</h2>
+                <p>
+                    Senior Year student at SUNY Brockport with a focus in web
+                    development and technologies. I have been tutoring computer
+                    science for two years. I have strong problem solving and
+                    communication skills. I have three years of experience
+                    programming in Java, Python, and HTML/CSS.
+                </p>
+
+                <h2>EXPERIENCE</h2>
+                <h3>
+                    Suny Brockport, New York | Tutor | December 2022 - May 2024
+                </h3>
+                <ul>
+                    <li>
+                        I help students with debugging and concepts in Software
+                        Engineering, Networking, Programming, etc. I needed to
+                        be a good debugger and know my coding languages/concepts
+                        in order to answer questions quickly.
+                    </li>
+                    <li>
+                        Debugging : Increase my ability to find bugs and logical
+                        errors in code
+                    </li>
+                </ul>
+
+                <h2>Education</h2>
+                <h3>
+                    Bachelor in Computer Science, May 2024, Suny Brockport, New
+                    York
+                </h3>
+                <ul>
+                    <li>GPA: 3.7</li>
+                    <li>Minor in Cybersecurity</li>
+                    <li>
+                        Dean List | Department head recommended me for tutor
+                    </li>
+                </ul>
+                <h2>Most Notable Projects</h2>
+                <h3>
+                    <a
+                        class="project"
+                        href="https://github.com/LostProgrammer1010/TaskFlow"
+                        >University at Buffalo/Task Flow
+                    </a>
+                </h3>
+                <p>
+                    One of five developers for Task Flow, a mobile app that
+                    works across both ios and android. Allowing users to create
+                    accounts or use Google login. Users can create tasks and set
+                    reminders, which will remind them with a notification on
+                    their phone. - React Native, Docker, Python, Heroku, Django.
+                </p>
+                <h3>
+                    <a
+                        class="project"
+                        href="https://github.com/LostProgrammer1010/Wave"
+                        >Personal/Wave</a
+                    >
+                </h3>
+                <p>
+                    Solo maintainer of Wave, A text editor that allows you
+                    modify and save files in the terminal. A spin on vim with
+                    file support and text highlighting. Future feature ideas:
+                    adding more support for other files, copy and paste, undo
+                    and redo, etc - Rust
+                </p>
+            </div>
+            <div class="right-container">
+                <h2>Contact</h2>
+                <p>
+                    14 Davy Drive Rochester, NY 14624 <br />
+                    (585) 489 - 6793 <br />
+                    <a class="email" href="mailto: demeyerwork@gmail.com"
+                        >demeyerwork@gmail.com</a
+                    >
+                    <br />
+                    <a class="social" href="#"> Linkedin </a> |
+                    <a class="social" href="#">Github</a> |
+                    <a class="social" href="#">LeetCode</a>
+                </p>
+                <h2>Skills</h2>
+                <p>
+                    Languages: Java | Python | Rust | Javascript | HTML\CSS
+                    <br />
+                    Frameworks: React Native | Blazor<br />
+                    Database: SQL<br />
+                    Containers: Docker<br />
+                    Version Control: Git<br />
+                    Soft skills: Problem solving | Communication |
+                    Organization<br />
+                </p>
+                <h2>Awards</h2>
+                <p>
+                    Exceptional Engagement Award <br />
+                    Exceptional Senior Award
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
